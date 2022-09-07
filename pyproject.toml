@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "unknow_company"
+version = "0.1.0"
+description = "This is unknow company's test project"
+authors = ["Baha Sadatbekov <genry03gh@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.1.1"
+gunicorn = "^20.1.0"
+python-dotenv = "^0.20.0"
+psycopg2-binary = "^2.9.3"
+tzdata = "^2022.2"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
