@@ -13,6 +13,12 @@
     export DOCKER_COMPOSE_FILE=docker-compose_prod.yml
     # запуск
     make up
+    # сбор всех миграционных файлов
+    make makemigrations
+    # миграция
+    make migrate
+    # для создания супер пользователя
+    make createsuperuser
     # Для просмотра всех команд makefile
     make help
 ```
