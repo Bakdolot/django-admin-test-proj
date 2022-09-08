@@ -3,8 +3,7 @@ FROM osgeo/gdal:ubuntu-full-latest
 WORKDIR /home/app/web
 
 RUN apt update \
-    && apt install -y gettext \
-    && apt install -y python3 python3-pip python3-venv python3-dev libpq-dev curl
+    && apt install -y gettext python3 python3-pip python3-venv python3-dev libpq-dev curl
 RUN mkdir -p /home/app/web/static
 
 # install dependencies

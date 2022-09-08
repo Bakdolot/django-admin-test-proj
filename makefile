@@ -7,7 +7,7 @@ help: ## Show all make commands
 build: ## Build containers
 	docker-compose -f $(DOCKER_COMPOSE_FILE) build $(c)
 up: ## Start all containers in foreground
-	docker-compose -f $(DOCKER_COMPOSE_FILE) up -d $(c)
+	docker-compose -f $(DOCKER_COMPOSE_FILE) up $(c)
 start: ## Start all containers in background
 	docker-compose -f $(DOCKER_COMPOSE_FILE) start $(c)
 down: ## Stop all containers
