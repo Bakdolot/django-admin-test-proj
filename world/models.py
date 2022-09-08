@@ -1,5 +1,6 @@
 from django.contrib.gis.db import models
 
+
 class WorldBorder(models.Model):
     name = models.CharField(max_length=50, verbose_name="Name")
     area = models.IntegerField(verbose_name="Area")
