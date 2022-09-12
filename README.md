@@ -1,4 +1,4 @@
-## Запуск проекта локалбно
+## Запуск проекта локально
 
 Зависимости проекта: `docker`, `docker-compose`
 
@@ -24,7 +24,7 @@
 ```
 
 ## Запуск проекта вручную
-Если вы хотите поднять проект prod исползуйте комманды `docker-compose -f docker-compose_prod.yml ` вместо `docker-compose`
+Если вы хотите поднять проект prod используйте команды `docker-compose -f docker-compose_prod.yml ` вместо `docker-compose`
 
 1. Сделать ENTRYPOINT Scripts исполняемым
 
